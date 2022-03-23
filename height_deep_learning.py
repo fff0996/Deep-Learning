@@ -12,6 +12,8 @@ seed = 0
 numpy.random.seed(seed)
 tf.random.set_seed(3)
 
+#학습시킬 데이터 가져오기
+
 df = pd.read_csv("/content/Queen.csv")
 
 dataset = df.values
