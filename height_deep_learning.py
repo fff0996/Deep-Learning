@@ -80,3 +80,8 @@ zz = pd.DataFrame(weights[0])
 
 #데이터 프레임 각 행의 평균 구하기 
 zz.mean(axis=1)
+
+#모델학습 결과 확인 
+plt.figure(figsize=(16, 10)) 
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
