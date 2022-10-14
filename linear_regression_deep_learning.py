@@ -7,7 +7,8 @@ from tensorflow.python.keras.models import load_model
 import numpy as np
 import tensorflow as tf
 
-
+from google.colab import drive
+drive.mount('/content/drive')
 seed = 0
 numpy.random.seed(seed)
 tf.random.set_seed(3)
